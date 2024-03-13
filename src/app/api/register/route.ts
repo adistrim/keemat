@@ -1,4 +1,4 @@
-import User from '@/models/user';
+import User from '@/app/models/User';
 import connect from "@/app/utils/db";
 import bcrypt from "bcrypt";         // Blowfish cipher, symmertic , fiestel n/w
 
