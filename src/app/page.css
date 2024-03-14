@@ -1,0 +1,13 @@
+@keyframes slide {
+    0% {
+        transform: translateY(-500%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+.animate-slide {
+    animation: slide 0.5s ease-in-out forwards;
+}
