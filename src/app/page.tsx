@@ -104,7 +104,7 @@ const Home: React.FC = () => {
         <div>
             {showImage ? (
                 <div className='animate-slide relative'>
-                    <Image src="/illustrations/Icon.png" alt="Keemat Icon" width={120} height={120} />
+                    <Image src="/icon/Icon.png" alt="Keemat Icon" width={120} height={120} />
                 </div>
             ) : exploreClicked || step === 1 ? (
                 <Splash1 onNext={handleNextClick} />
@@ -137,7 +137,7 @@ const Home: React.FC = () => {
                 </div>
             ) : step === 0 ? (
                 <div className="w-[360px] min-h-screen relative bg-white">
-                    <Image src="/illustrations/Icon.png" alt="Keemat Icon" width={150} height={150} className="w-[118.19px] h-[118.19px] left-[120.54px] top-[150px] absolute bg-teal-300 rounded-[118.19px]" />
+                    <Image src="/icon/Icon.png" alt="Keemat Icon" width={150} height={150} className="w-[118.19px] h-[118.19px] left-[120.54px] top-[150px] absolute bg-teal-300 rounded-[118.19px]" />
                     <div className="w-[242px] left-[58.63px] top-[329px] absolute text-center text-teal-950 text-4xl font-semibold leading-[43.20px]">Welcome to Keemat!</div>
                     <div onClick={handleExploreClick} className="w-[328px] h-[60px] pl-[52px] pr-[18.37px] pt-[18px] pb-[17.50px] left-[16.25px] top-[596px] absolute bg-sky-400 rounded-[11px] justify-end items-start gap-[10.63px] inline-flex">
                         <div className="w-[223px] text-center text-teal-950 text-xl font-medium leading-normal">Let’s get exploring!</div>
