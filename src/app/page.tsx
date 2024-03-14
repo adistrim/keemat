@@ -127,7 +127,7 @@ const Home: React.FC = () => {
                     </Link>
                     <div className="left-[109.50px] top-[701px] absolute text-center text-cyan-800 text-lg font-semibold leading-snug">Skip for now</div>
                     <div className="w-6 h-6 left-[226px] top-[700px] absolute">
-                        <Image src="icon/info.svg" alt="" fill className="w-full h-full absolute" />
+                        <Image src="icon/Info.svg" alt="" fill className="w-full h-full absolute" />
                     </div>
                     <div className="w-[270px] h-[270px] left-[44px] top-[85px] absolute justify-center items-center inline-flex">
                         <div className="w-[270px] h-[270px] relative">
