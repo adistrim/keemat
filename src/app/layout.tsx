@@ -8,6 +8,7 @@ const manrope = Manrope({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Keemat",
   description: "",
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
